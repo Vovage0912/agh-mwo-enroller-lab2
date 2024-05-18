@@ -38,7 +38,6 @@ public class ParticipantService {
     }
 
 
-
     public Participant findByLogin(String login) {
         return connector.getSession().get(Participant.class, login);
     }
